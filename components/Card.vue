@@ -22,7 +22,7 @@ const media = computed(() => {
       >
         <NuxtImg
           v-if="item.poster_path" h-full w-full rounded-md duration-500 hover:scale-105
-          :src="`https://image.tmdb.org/t/p/w370_and_h556_bestv2${item.poster_path}`"
+          :src="`https://image.tmdb.org/t/p/w500${item.poster_path}`"
         />
         <span v-else>
           <Icon name="tabler:photo" text-white size="40" />
